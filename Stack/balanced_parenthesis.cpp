@@ -39,7 +39,10 @@ bool balancedParenthesis(const string &s, int n) {
             }
         }
     }
-    return true;
+    if (check.empty())
+        return true;
+    else
+        return false;
 }
 
 int main() {
