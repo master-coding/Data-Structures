@@ -6,6 +6,7 @@
 using namespace std;
 
 #define speedio ios_base::sync_with_stdio(false); cin.tie(NULL);
+
 #define sp ' '
 #define nl '\n'
 
@@ -25,8 +26,7 @@ int main() {
     int n;
     cin >> n;
     int a[n];
-    rep(i, 0, n)
-        cin >> a[i];  
-    
+    for (int i = 0; i < n; i++)
+        cin >> a[i];    
     leaders(a, n);
 }
