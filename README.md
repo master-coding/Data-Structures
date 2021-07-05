@@ -1,15 +1,21 @@
 # Table of Contents
 
-- [Table of Contents](#table-of-contents)
-  - [Arrays](#arrays)
-  - [Stack](#stack)
-  - [Tree](#tree)
+- [Arrays](#arrays)
+- [Stack](#stack)
+- [Tree](#tree)
   
+---
+
 ## Arrays
 
-| Problem                    | Solution |
-| -------------------------- | -------- |
-| Move all zeroes to the end |          |
+| Problem                            | Solution |
+| ---------------------------------- | -------- |
+| Move all zeroes to the end         |          |
+| Rotate array by d                  |          |
+| Leaders in an array                |          |
+| Frquencies of elements in an array |          |
+
+---
 
 ## Stack
 
@@ -17,6 +23,8 @@
 | -------------------- | -------- |
 | Balanced Parenthesis |          |
 | Stock Span Problem   |          |
+
+---
 
 ## Tree
 
