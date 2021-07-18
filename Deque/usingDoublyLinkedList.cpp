@@ -35,7 +35,7 @@ bool Deque :: isEmpty() {
 }
 
 int Deque :: Dequesize() {
-    return Deque :: size;
+    return size;
 }
 
 void Deque :: getFront() {
@@ -82,7 +82,13 @@ void Deque :: deleteFront() {
     }
     else {
         Node *temp = front;
-        front = front -> next;
+        if (front -> next == NULL) {
+            front = NULL;
+            rear = NULL;
+        }
+        else {
+            front = front -> next;
+        }
         delete(temp);
     }
     size--;
@@ -94,7 +100,13 @@ void Deque :: deleteRear() {
     }
     else {
         Node *temp = rear;
-        rear = rear -> prev;
+        if (front -> next == NULL) {
+            front = NULL;
+            rear = NULL;
+        }
+        else {
+            rear = rear -> prev;
+        }
         delete(temp);
     }
     size--;
@@ -123,13 +135,13 @@ int main() {
                 cout << "Deque is not Empty ";
         }
         else if (choice == 2) {
-            cout << "size " << d.Dequesize() << nl;
+            cout << d.Dequesize() << nl;
         }
         else if (choice == 3) {
-            cout << "Front element "; d.getRear();
+            d.getRear();
         }
         else if (choice == 4) {
-            cout << "Rear element "; d.getFront();
+            d.getFront();
         }
         else if (choice == 5) {
             int element;
