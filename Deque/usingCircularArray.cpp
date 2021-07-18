@@ -14,8 +14,8 @@ struct Deque {
 
     bool isEmpty();
     bool isFull();
-    int getRear();
-    int getFront();
+    void getRear();
+    void getFront();
     void insertFront(int x);
     void insertRear(int x);
     void deleteFront();
@@ -30,20 +30,24 @@ bool Deque :: isFull() {
     return size == cap;
 }
 
-int Deque :: getRear() {
-    if (isEmpty())
-        return -1;
-    return arr[(front + size - 1) % cap];
+void Deque :: getRear() {
+    if (isEmpty()) {
+        cout << "Deque is empty." << nl;
+        return;
+    }
+    cout << arr[(front + size - 1) % cap] << nl ;
 }
 
-int Deque :: getFront() {
-    if (Deque :: isEmpty())
-        return -1;
-    return arr[front];
+void Deque :: getFront() {
+    if (isEmpty()) {
+        cout << "Deque is empty" << nl;
+        return;
+    }
+    cout << arr[front] << nl;
 }
 
 void Deque :: insertFront(int x) {
-    if (Deque :: isFull())
+    if (isFull())
         return;
     front = (front + cap - 1) % cap;
     arr[front] = x;
@@ -51,7 +55,7 @@ void Deque :: insertFront(int x) {
 }
 
 void Deque :: insertRear(int x) {
-    if (Deque :: isFull())
+    if (isFull())
         return;
     int rear = (front + size) % cap;
     arr[rear] = x;
@@ -73,7 +77,9 @@ void Deque :: deleteRear() {
 
 
 int main() {
-    Deque d(5);
+    int capacity;
+    cin >> capacity;
+    Deque d(capacity);
 
     cout << "1 isEmpty() " << nl;
     cout << "2 isFull() " << nl;
@@ -101,16 +107,10 @@ int main() {
                 cout << "Deque is not Full " << nl;
         }
         else if (choice == 3) {
-            if (d.getRear() == -1)
-                cout << "Deque is Empty. " << nl;
-            else
-                cout << d.getRear() << nl;
+            d.getRear();
         }
         else if (choice == 4) {
-            if (d.getFront() == -1)
-                cout << "Deque is Empty. " << nl;
-            else
-                cout << d.getFront() << nl;
+            d.getFront();
         }
         else if (choice == 5) {
             int element;
