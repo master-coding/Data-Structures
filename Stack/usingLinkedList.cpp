@@ -36,11 +36,6 @@ void Stack :: top() {
 
 void Stack :: push(int x) {
     Node *temp = new Node(x);
-    if (front == NULL) {
-        front = temp;
-        stackSize++;
-        return;
-    }
     temp -> next = front;
     front = temp;
     stackSize++;
