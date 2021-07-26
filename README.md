@@ -1,4 +1,8 @@
-<img alt="C++" src="https://img.shields.io/badge/c++-%2300599C.svg?style=for-the-badge&logo=c%2B%2B&logoColor=white"/> <img alt="GitHub" src="https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white"/>
+<img alt="C++" src="https://img.shields.io/badge/c++-%2300599C.svg?style=for-the-badge&logo=c%2B%2B&logoColor=white"/> 
+<!-- [<img alt="GitHub" src="https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white"/>] -->
+
+--- 
+
 # Table of Contents
 
   - [Arrays](#arrays)
@@ -14,12 +18,17 @@
 
 ## Arrays
 
-| Problem No. | Problem                                                                                                                  |
-| :---------- | ------------------------------------------------------------------------------------------------------------------------ |
-| 1.          | [Move all zeroes to the ](https://github.com/master-coding/Data-Structures/blob/main/array/zeroes_to_end.cpp)            |
-| 2.          | [Rotate array by d](https://github.com/master-coding/Data-Structures/blob/main/array/rotate_by_d.cpp)                    |
-| 3.          | [Leaders in an array](https://github.com/master-coding/Data-Structures/blob/main/array/leaders.cpp)                      |
-| 4.          | [Frquencies of elements in an a](https://github.com/master-coding/Data-Structures/blob/main/array/frequencies_array.cpp) |
+| Problem No. | Problem                                                                                                                            |
+| :---------- | ---------------------------------------------------------------------------------------------------------------------------------- |
+| 1.          | [Move all zeroes to the end ](https://github.com/master-coding/Data-Structures/blob/main/array/zeroes_to_end.cpp)                  |
+| 2.          | [Rotate array  elements by d](https://github.com/master-coding/Data-Structures/blob/main/array/rotate_by_d.cpp)                    |
+| 3.          | [Leaders in an array](https://github.com/master-coding/Data-Structures/blob/main/array/leaders.cpp)                                |
+| 4.          | [Frquencies of elements in an array](https://github.com/master-coding/Data-Structures/blob/main/array/frequencies_array.cpp)       |
+| 5.          | [Majority element in an array](https://github.com/master-coding/Data-Structures/blob/main/array/majority.cpp)                      |
+| 6.          | [Maximum sum in the subarray](https://github.com/master-coding/Data-Structures/blob/main/array/maxSumSubarray.cpp)                 |
+| 7.          | [Finding the peak element in an array](https://github.com/master-coding/Data-Structures/blob/main/array/peakElement.cpp)           |
+| 8.          | [Trap Rain Water](https://github.com/master-coding/Data-Structures/blob/main/array/trapRainWater.cpp)                              |
+| 9.          | [Find the Maximum sum in a Circular Subarray](https://github.com/master-coding/Data-Structures/blob/main/array/maxCircularSum.cpp) |
 
 ---
 
@@ -31,7 +40,8 @@
 | 2.          | [Search element in a Linked List](https://github.com/master-coding/Data-Structures/blob/main/Linked%20List/searchElement.cpp)    |
 | 3.          | [Insertion in a Linked List](https://github.com/master-coding/Data-Structures/blob/main/Linked%20List/insertion.cpp)             |
 | 4.          | [Delete Last Node in a Linked List](https://github.com/master-coding/Data-Structures/blob/main/Linked%20List/deleteLastNode.cpp) |
-| 5.          | [Circular Linked List](https://github.com/master-coding/Data-Structures/blob/main/Linked%20List/circularLinkedList.cpp)          |
+| 5.          | [Middle Element in a Linked List](https://github.com/master-coding/Data-Structures/blob/main/Linked%20List/middleElement.cpp)    |
+| 6.          | [Circular Linked List](https://github.com/master-coding/Data-Structures/blob/main/Linked%20List/circularLinkedList.cpp)          |
 
 ---
 
@@ -43,6 +53,7 @@
 | 2.          | [Implement Stack using Linked List](https://github.com/master-coding/Data-Structures/blob/main/Stack/usingLinkedList.cpp) |
 | 3.          | [Balanced Parenthesis](https://github.com/master-coding/Data-Structures/blob/main/Stack/balanced_parenthesis.cpp)         |
 | 4.          | [Stock Span Problem](https://github.com/master-coding/Data-Structures/blob/main/Stack/stock_span.cpp)                     |
+| 5.          | [Evaluate postfix using Stack](https://github.com/master-coding/Data-Structures/blob/main/Stack/evaluate_postfix.cpp)     |
 
 ---
 
@@ -74,19 +85,28 @@
 
 ---
 
+## Heap
+
+
+| Problem No. | Problem                                                                                                        |
+| :---------- | -------------------------------------------------------------------------------------------------------------- |
+| 1.          | [Implementation of heap](https://github.com/master-coding/Data-Structures/blob/main/Heap/implementation.cpp)   |
+| 2.          | [Construct heap from array](https://github.com/master-coding/Data-Structures/blob/main/Heap/heapFromArray.cpp) |
+---
+
 ## Maths
 
-| Problem No. | Problem                                                                                                     |
-| :---------- | ----------------------------------------------------------------------------------------------------------- |
-| 1.          | [No of Digits in a Number](https://github.com/master-coding/Data-Structures/blob/main/Maths/noOfDigits.cpp)      |
-| 2.          | [Calculate Power](https://github.com/master-coding/Data-Structures/blob/main/Maths/power.cpp)       |
+| Problem No. | Problem                                                                                                           |
+| :---------- | ----------------------------------------------------------------------------------------------------------------- |
+| 1.          | [No of Digits in a Number](https://github.com/master-coding/Data-Structures/blob/main/Maths/noOfDigits.cpp)       |
+| 2.          | [Calculate Power](https://github.com/master-coding/Data-Structures/blob/main/Maths/power.cpp)                     |
 | 3.          | [Seive of Eratosthenes](https://github.com/master-coding/Data-Structures/blob/main/Maths/seiveOfEratosthenes.cpp) |
 
 ---
 
 ## Bit Masking
 
-| Problem No. | Problem                                                                                                     |
-| :---------- | ----------------------------------------------------------------------------------------------------------- |
-| 1.          | [Count no of Set bits in a number](https://github.com/master-coding/Data-Structures/blob/main/Bit%20Masking/countSetBits.cpp)      |
-| 2.          | [Check whether kth bit is set or not](https://github.com/master-coding/Data-Structures/blob/main/Maths/kBitSetOrNot.cpp)       |
+| Problem No. | Problem                                                                                                                       |
+| :---------- | ----------------------------------------------------------------------------------------------------------------------------- |
+| 1.          | [Count no of Set bits in a number](https://github.com/master-coding/Data-Structures/blob/main/Bit%20Masking/countSetBits.cpp) |
+| 2.          | [Check whether kth bit is set or not](https://github.com/master-coding/Data-Structures/blob/main/Maths/kBitSetOrNot.cpp)      |
