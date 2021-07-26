@@ -7,6 +7,8 @@
   - [Queue](#queue)
   - [Dequeue](#dequeue)
   - [Tree](#tree)
+  - [Maths](#maths)
+  - [Bit Masking](#bit-masking)
   
 ---
 
@@ -69,3 +71,22 @@
 | 1.          | [Tree implementation](https://github.com/master-coding/Data-Structures/blob/main/Tree/sample_tree.cpp)      |
 | 2.          | [Height of the tree](https://github.com/master-coding/Data-Structures/blob/main/Tree/height_tree.cpp)       |
 | 3.          | [Print nodes at distance k](https://github.com/master-coding/Data-Structures/blob/main/Tree/nodes_at_k.cpp) |
+
+---
+
+## Maths
+
+| Problem No. | Problem                                                                                                     |
+| :---------- | ----------------------------------------------------------------------------------------------------------- |
+| 1.          | [No of Digits in a Number](https://github.com/master-coding/Data-Structures/blob/main/Maths/noOfDigits.cpp)      |
+| 2.          | [Calculate Power](https://github.com/master-coding/Data-Structures/blob/main/Maths/power.cpp)       |
+| 3.          | [Seive of Eratosthenes](https://github.com/master-coding/Data-Structures/blob/main/Maths/seiveOfEratosthenes.cpp) |
+
+---
+
+## Bit Masking
+
+| Problem No. | Problem                                                                                                     |
+| :---------- | ----------------------------------------------------------------------------------------------------------- |
+| 1.          | [Count no of Set bits in a number](https://github.com/master-coding/Data-Structures/blob/main/Bit%20Masking/countSetBits.cpp)      |
+| 2.          | [Check whether kth bit is set or not](https://github.com/master-coding/Data-Structures/blob/main/Maths/kBitSetOrNot.cpp)       |
