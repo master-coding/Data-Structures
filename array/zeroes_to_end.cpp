@@ -10,51 +10,64 @@ using namespace std;
 #define rep(i, a, b) for(int i = a; i < b; ++i)
 #define sp ' '
 
-
-// method 1
-void ZereosEnd(int arr[], int n) {
-    int temp[n];
-    int j = 0, k = n - 1;
+// time complexity: O(n**2), auxillary space: O(1)
+void zeroesToEndMt1(int arr[], int n) {
     rep(i, 0, n) {
         if (arr[i] == 0) {
-            temp[k] = arr[i];
-            k--;
+            rep(j, i + 1, n) {
+                if (arr[j] != 0) {
+                    swap(arr[j], arr[i]);
+                    break;
+                }
+            }
+        }
+    }
+}
+
+// time complexity: O(n), auxillary space: O(n)
+void zeroesToEndMt2(int arr[], int n) {
+    int temp[n];
+    int j = 0, k = n - 1;
+    
+    rep(i, 0, n) {
+        if (arr[i] == 0) {
+            temp[k--] = 0;
         }
         else {
             temp[j] = arr[i];
             j++;
         }
     }
-    rep(i, 0, n)
-        cout << temp[i] << sp;
-// time complexity O(n)
-// auxillary space O(n)
+    
+    rep(i, 0, n) {
+        arr[i] = temp[i];
+    }
 }
 
+// time complexity: O(n), auxillary space: O(1)
+void zeroesToEndMt3(int arr[], int n) {
+    int nonNegative = 0;
 
-// method 2
-void ZeroesToEnd(int arr[], int n) {
-    int count = 0;
     rep(i, 0, n) {
         if (arr[i] != 0) {
-            swap(arr[i], arr[count]);
-            count++;
+            swap(arr[i], arr[nonNegative]);
+            nonNegative++;
         }
     }
-// time complexity - O(n)
-// auxillary space - O(1)
 }
 
 int main() {
     speedio;
-    int n;
-    cin >> n;
+    int n; cin >> n;
     int arr[n];
+
     rep(i, 0, n)
         cin >> arr[i];
 
-    ZeroesToEnd(arr, n);
+    // zeroesToEndMt1(arr, n);
+    // zeroesToEndMt2(arr, n);
+    zeroesToEndMt3(arr, n);
+
     rep(i, 0, n)
         cout << arr[i] << sp;
-    // ZereosEnd(arr, n);    
 }
