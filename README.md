@@ -23,7 +23,7 @@
 | 1.          | [Move all zeroes to the end ](https://github.com/master-coding/Data-Structures/blob/main/array/zeroes_to_end.cpp)                  |
 | 2.          | [Rotate array  elements by d](https://github.com/master-coding/Data-Structures/blob/main/array/rotate_by_d.cpp)                    |
 | 3.          | [Leaders in an array](https://github.com/master-coding/Data-Structures/blob/main/array/leaders.cpp)                                |
-| 4.          | [Frquencies of elements in an array](https://github.com/master-coding/Data-Structures/blob/main/array/frequencies_array.cpp)       |
+| 4.          | [Frquencies of elements in a sorted array](https://github.com/master-coding/Data-Structures/blob/main/array/frequencies_sorted_array.cpp)       |
 | 5.          | [Majority element in an array](https://github.com/master-coding/Data-Structures/blob/main/array/majority.cpp)                      |
 | 6.          | [Maximum sum in the subarray](https://github.com/master-coding/Data-Structures/blob/main/array/maxSumSubarray.cpp)                 |
 | 7.          | [Finding the peak element in an array](https://github.com/master-coding/Data-Structures/blob/main/array/peakElement.cpp)           |
