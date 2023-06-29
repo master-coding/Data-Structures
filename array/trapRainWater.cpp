@@ -4,9 +4,30 @@
 #include <iostream>
 using namespace std;
 
-int trapwater(int arr[], int n) {
+// time complexity: O(n**2)
+int trapRainWaterMt1(int arr[], int n) {
+    // no water can be trapped on first and last block
+    int maxTrapWater = 0;
+    for (int i = 1; i < n - 1; i++) {
+        int leftMax = arr[i];
+        for (int j = 0; j < i; j++)
+            leftMax = max(leftMax, arr[j]);
+
+        int rightMax = arr[i];
+        for (int j = i + 1; j < n; j++)
+            rightMax = max(rightMax, arr[j]);
+
+        maxTrapWater += min(leftMax, rightMax) - arr[i];
+    }
+
+    return maxTrapWater;
+}
+
+// time complexity: O(n), auxillary space: O(n)
+int trapRainWaterMt2(int arr[], int n) {
     int lmax[n], rmax[n];
-    lmax[0] = arr[0], rmax[n-1] = arr[n - 1];
+    lmax[0] = arr[0], rmax[n - 1] = arr[n - 1];
+
     for (int i = 1; i < n; i++)
         lmax[i] = max(arr[i], lmax[i -1]);
 
@@ -25,6 +46,8 @@ int main() {
     int n; cin >> n;
     int arr[n];
     for (int i = 0; i < n; i++)
-        cin >> arr[i]; 
-    cout << trapwater(arr, n);
+        cin >> arr[i];
+
+    // cout << trapRainWaterMt1(arr, n);
+    cout << trapRainWaterMt2(arr, n);
 }
