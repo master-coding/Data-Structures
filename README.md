@@ -33,6 +33,7 @@
 | 11.         | [Stock Buy and Sell](https://github.com/master-coding/Data-Structures/blob/main/array/stock_buy_sell.cpp)                                 |
 | 12.         | [Maximum Consecutive One](https://github.com/master-coding/Data-Structures/blob/main/array/maxConsecutiveOne.cpp)                         |
 | 12.         | [Maximum Length Even Odd Subarray](https://github.com/master-coding/Data-Structures/blob/main/array/maxLenEvenOdd.cpp)                    |
+| 13.         | [Minimum Group Flip to make array same](https://github.com/master-coding/Data-Structures/blob/main/array/minGroupFlip.cpp)                |
 
 ---
 
