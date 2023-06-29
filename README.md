@@ -34,6 +34,7 @@
 | 12.         | [Maximum Consecutive One](https://github.com/master-coding/Data-Structures/blob/main/array/maxConsecutiveOne.cpp)                         |
 | 12.         | [Maximum Length Even Odd Subarray](https://github.com/master-coding/Data-Structures/blob/main/array/maxLenEvenOdd.cpp)                    |
 | 13.         | [Minimum Group Flip to make array same](https://github.com/master-coding/Data-Structures/blob/main/array/minGroupFlip.cpp)                |
+| 14.         | [Equilibrium Point](https://github.com/master-coding/Data-Structures/blob/main/array/equilibriumPoint.cpp)                                |
 
 ---
 
