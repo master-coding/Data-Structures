@@ -1,34 +1,36 @@
 <img alt="C++" src="https://img.shields.io/badge/c++-%2300599C.svg?style=for-the-badge&logo=c%2B%2B&logoColor=white"/> 
 <!-- [<img alt="GitHub" src="https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white"/>] -->
 
---- 
+---
 
 # Table of Contents
 
-  - [Arrays](#arrays)
-  - [Linked List](#linked-list)
-  - [Stack](#stack)
-  - [Queue](#queue)
-  - [Dequeue](#dequeue)
-  - [Tree](#tree)
-  - [Maths](#maths)
-  - [Bit Masking](#bit-masking)
-  
+- [Arrays](#arrays)
+- [Linked List](#linked-list)
+- [Stack](#stack)
+- [Queue](#queue)
+- [Dequeue](#dequeue)
+- [Tree](#tree)
+- [Maths](#maths)
+- [Bit Masking](#bit-masking)
+
 ---
 
 ## Arrays
 
-| Problem No. | Problem                                                                                                                            |
-| :---------- | ---------------------------------------------------------------------------------------------------------------------------------- |
-| 1.          | [Move all zeroes to the end ](https://github.com/master-coding/Data-Structures/blob/main/array/zeroes_to_end.cpp)                  |
-| 2.          | [Rotate array  elements by d](https://github.com/master-coding/Data-Structures/blob/main/array/rotate_by_d.cpp)                    |
-| 3.          | [Leaders in an array](https://github.com/master-coding/Data-Structures/blob/main/array/leaders.cpp)                                |
-| 4.          | [Frquencies of elements in a sorted array](https://github.com/master-coding/Data-Structures/blob/main/array/frequencies_sorted_array.cpp)       |
-| 5.          | [Majority element in an array](https://github.com/master-coding/Data-Structures/blob/main/array/majority.cpp)                      |
-| 6.          | [Maximum sum in the subarray](https://github.com/master-coding/Data-Structures/blob/main/array/maxSumSubarray.cpp)                 |
-| 7.          | [Finding the peak element in an array](https://github.com/master-coding/Data-Structures/blob/main/array/peakElement.cpp)           |
-| 8.          | [Trap Rain Water](https://github.com/master-coding/Data-Structures/blob/main/array/trapRainWater.cpp)                              |
-| 9.          | [Find the Maximum sum in a Circular Subarray](https://github.com/master-coding/Data-Structures/blob/main/array/maxCircularSum.cpp) |
+| Problem No. | Problem                                                                                                                                   |
+| :---------- | ----------------------------------------------------------------------------------------------------------------------------------------- |
+| 1.          | [Move all zeroes to the end ](https://github.com/master-coding/Data-Structures/blob/main/array/zeroes_to_end.cpp)                         |
+| 2.          | [Rotate array elements by d](https://github.com/master-coding/Data-Structures/blob/main/array/rotate_by_d.cpp)                            |
+| 3.          | [Leaders in an array](https://github.com/master-coding/Data-Structures/blob/main/array/leaders.cpp)                                       |
+| 4.          | [Frquencies of elements in a sorted array](https://github.com/master-coding/Data-Structures/blob/main/array/frequencies_sorted_array.cpp) |
+| 5.          | [Majority element in an array](https://github.com/master-coding/Data-Structures/blob/main/array/majority.cpp)                             |
+| 6.          | [Maximum sum in the subarray](https://github.com/master-coding/Data-Structures/blob/main/array/maxSumSubarray.cpp)                        |
+| 7.          | [Finding the peak element in an array](https://github.com/master-coding/Data-Structures/blob/main/array/peakElement.cpp)                  |
+| 8.          | [Trap Rain Water](https://github.com/master-coding/Data-Structures/blob/main/array/trapRainWater.cpp)                                     |
+| 9.          | [Find the Maximum sum in a Circular Subarray](https://github.com/master-coding/Data-Structures/blob/main/array/maxCircularSum.cpp)        |
+| 10.         | [Maximum Difference Problem](https://github.com/master-coding/Data-Structures/blob/main/array/maximum_difference_problem.cpp)             |
+| 11.         | [Stock Buy and Sell](https://github.com/master-coding/Data-Structures/blob/main/array/stock_buy_sell.cpp)             |
 
 ---
 
@@ -72,7 +74,7 @@
 | :---------- | ---------------------------------------------------------------------------------------------------------------------------------------- |
 | 1.          | [Implement Dequeue using Circular Array](https://github.com/master-coding/Data-Structures/blob/main/Deque/usingCircularArray.cpp)        |
 | 2.          | [Implement Dequeue using Doubly Linked List](https://github.com/master-coding/Data-Structures/blob/main/Deque/usingDoublyLinkedList.cpp) |
-  
+
 ---
 
 ## Tree
@@ -87,11 +89,11 @@
 
 ## Heap
 
-
 | Problem No. | Problem                                                                                                        |
 | :---------- | -------------------------------------------------------------------------------------------------------------- |
 | 1.          | [Implementation of heap](https://github.com/master-coding/Data-Structures/blob/main/Heap/implementation.cpp)   |
 | 2.          | [Construct heap from array](https://github.com/master-coding/Data-Structures/blob/main/Heap/heapFromArray.cpp) |
+
 ---
 
 ## Maths
