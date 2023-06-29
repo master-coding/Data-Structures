@@ -30,7 +30,8 @@
 | 8.          | [Trap Rain Water](https://github.com/master-coding/Data-Structures/blob/main/array/trapRainWater.cpp)                                     |
 | 9.          | [Find the Maximum sum in a Circular Subarray](https://github.com/master-coding/Data-Structures/blob/main/array/maxCircularSum.cpp)        |
 | 10.         | [Maximum Difference Problem](https://github.com/master-coding/Data-Structures/blob/main/array/maximum_difference_problem.cpp)             |
-| 11.         | [Stock Buy and Sell](https://github.com/master-coding/Data-Structures/blob/main/array/stock_buy_sell.cpp)             |
+| 11.         | [Stock Buy and Sell](https://github.com/master-coding/Data-Structures/blob/main/array/stock_buy_sell.cpp)                                 |
+| 12.         | [Maximum Consecutive One](https://github.com/master-coding/Data-Structures/blob/main/array/maxConsecutiveOne.cpp)                         |
 
 ---
 
