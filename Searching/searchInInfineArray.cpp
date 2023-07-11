@@ -41,7 +41,7 @@ int method2(int arr[], int element) {
 
     if (arr[i] == element) return i;
 
-    return binarySearch(arr, element, (i / 2) + 1, i - 1)
+    return binarySearch(arr, element, (i / 2) + 1, i - 1);
 }
 
 int main() {
