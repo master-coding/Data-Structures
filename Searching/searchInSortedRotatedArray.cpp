@@ -38,7 +38,10 @@ int method2(int arr[], int n, int element) {
 }
 
 int main() {
-    int n; cin >> n;
+    int n, x; cin >> n >> x;
     int arr[n];
     for (int i = 0; i < n; i++) cin >> arr[i];
+
+    // cout << method1(arr, n, x);
+    cout << method2(arr, n, x);
 }
